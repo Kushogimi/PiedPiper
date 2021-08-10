@@ -1,0 +1,180 @@
+body {
+  background: #eee;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  color: #000;
+}
+
+.header {
+  background: #007765;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+}
+
+.container {
+  max-width: 1109px;
+  margin: 0 auto;
+}
+
+.logo {
+}
+
+.logo__image {
+  padding: 20px 0 15px 129px;
+}
+
+.nav {
+}
+
+.nav__menu {
+  display: flex;
+  list-style-type: none;
+  padding: 2px 100px 0 0;
+}
+
+.nav__item {
+  margin-right: 9px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.hero-header {
+  background: url("/img/background_hero_header.jpg") center center / cover;
+  width: 100%;
+}
+
+.hero-header__text {
+  color: #fff;
+  text-align: center;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 84px;
+  padding: 244px 0 159px 0;
+  margin: 0 auto;
+}
+
+.section-text {
+  padding-bottom: 54px;
+}
+
+.section-text__title {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+  margin: 47px 0 0 16px;
+}
+
+.section-text__paragraph {
+  font-size: 32px;
+  line-height: 37px;
+  margin: 17px 0 39px 9px;
+}
+
+.hero-main {
+  background: url("/img/background_hero_main.jpg") center center / cover;
+  width: 100%;
+}
+
+.hero-main__text {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  font-style: italic;
+  text-align: center;
+  color: #ffffff;
+  padding: 128px 0 131px 18px;
+  margin: 0 auto;
+}
+
+.section-information {
+  background: #fff;
+  padding-bottom: 53px;
+}
+
+.section-information__title {
+  margin: 0;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+  padding: 47px 0 0 19px;
+}
+
+.section-information__logo {
+  float: left;
+  margin: 17px 48px 0 9px;
+}
+
+.section-information__paragraph {
+  font-size: 32px;
+  line-height: 37px;
+  margin: 17px 0 39px 9px;
+}
+
+.section-team {
+  padding-bottom: 53px;
+}
+
+.section-team__title {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+  padding: 4px 0 0 19px;
+}
+
+.section-team__item {
+  display: inline-block;
+  text-align: center;
+  margin: 14px 54px 69px 45px;
+  width: 25%;
+}
+
+.section-team__item:nth-of-type(3n) {
+  margin-right: 0;
+}
+
+.section-team__photo {
+}
+
+.section-team__name {
+  margin: 0;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #007765;
+  padding: 8px 0 0 1px;
+}
+
+.section-team__text {
+  font-style: italic;
+  font-size: 18px;
+  line-height: 21px;
+  display: inline-block;
+  padding: 2px 0 0 0;
+}
+
+.footer {
+  background: #333333;
+}
+
+.footer__text {
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+  padding: 48px 0 63px 19px;
+}
