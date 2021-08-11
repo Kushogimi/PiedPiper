@@ -51,7 +51,7 @@ body {
 }
 
 .hero-header {
-  background: url("/background_hero_header.jpg") center center / cover;
+  background: url("../img/background_hero_header.jpg") center center / cover;
   width: 100%;
 }
 
@@ -85,7 +85,7 @@ body {
 }
 
 .hero-main {
-  background: url("/background_hero_main.jpg") center center / cover;
+  background: url("../img/background_hero_main.jpg") center center / cover;
   width: 100%;
 }
 
