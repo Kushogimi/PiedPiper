@@ -1,0 +1,199 @@
+@media (max-width: 1100px) {
+  .container {
+    max-width: 950px;
+  }
+
+  .section-team__item {
+    margin: 14px 50px 69px 28px;
+  }
+}
+
+@media (max-width: 960px) {
+  .container {
+    max-width: 800px;
+  }
+
+  .section-team__item {
+    margin: 14px 50px 69px 20px;
+  }
+}
+
+@media (max-width: 805px) {
+  .container {
+    max-width: 645px;
+  }
+
+  .section-team__item {
+    margin: 14px 0px 69px 20px;
+    width: 45%;
+  }
+
+  .hero-main__text {
+    font-size: 45px;
+  }
+
+  .section-information__title {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 670px) {
+  .container {
+    max-width: 510px;
+  }
+
+  .footer__text {
+    font-size: 16px;
+  }
+
+  .section-information__paragraph {
+    font-size: 24px;
+  }
+
+  .section-team__title {
+    font-size: 60px;
+  }
+
+  .section-information__title {
+    font-size: 55px;
+  }
+
+  .hero-main__text {
+    font-size: 35px;
+  }
+
+  .section-text__paragraph {
+    font-size: 24px;
+  }
+
+  .section-text__title {
+    font-size: 55px;
+  }
+
+  .hero-header__text {
+    font-size: 60px;
+  }
+
+  .section-information__logo {
+    margin: 28px 48px 0 9px;
+  }
+
+  .nav__menu-button {
+    display: block;
+    padding-right: 10px;
+  }
+
+  .nav-panel {
+    display: flex;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 50%;
+    background-color: #007765;
+    height: 100%;
+    z-index: 9;
+    align-items: flex-start;
+    padding-top: 150px;
+    justify-content: center;
+    transition: transform 0.2s opacity 0.2s;
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  .is-open {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+
+  .nav__menu {
+    flex-direction: column;
+  }
+
+  .close-menu {
+    display: block;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    cursor: pointer;
+    background-color: #007765;
+    border: none;
+  }
+}
+
+@media (max-width: 525px) {
+  .container {
+    max-width: 85%;
+  }
+
+  .section-team__item {
+    margin: 14px auto 69px auto;
+    width: 100%;
+  }
+
+  .hero-main__text {
+    font-size: 30px;
+  }
+
+  .footer__text {
+    font-size: 14px;
+  }
+
+  .section-team__title {
+    font-size: 50px;
+  }
+
+  .section-information__title {
+    font-size: 50px;
+  }
+
+  .hero-main__text {
+    font-size: 32px;
+  }
+
+  .section-text__title {
+    font-size: 50px;
+  }
+
+  .hero-header__text {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 390px) {
+  .container {
+    max-width: 85%;
+  }
+
+  .hero-header__text {
+    font-size: 35px;
+  }
+
+  .section-text__paragraph {
+    font-size: 20px;
+  }
+
+  .hero-main__text {
+    font-size: 25px;
+  }
+
+  .section-text__title {
+    font-size: 35px;
+  }
+
+  .section-information__title {
+    font-size: 35px;
+  }
+
+  .section-information__paragraph {
+    font-size: 20px;
+  }
+
+  .section-team__title {
+    font-size: 45px;
+    text-align: center;
+  }
+
+  .footer__text {
+    font-size: 10px;
+  }
+}

@@ -19,29 +19,44 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/adaptive.css" />
   </head>
   <body>
     <header class="header">
-      <a href="index.html" class="logo">
-        <img src="img/logo.svg" alt="PidePiper Logo" class="logo__image" />
-      </a>
-      <nav class="nav">
-        <ul class="nav__menu">
-          <li class="nav__item">
-            <a href="#section-text__title" class="nav__link">the problem</a>
-          </li>
-          <li class="nav__item">|</li>
-          <li class="nav__item">
-            <a href="#section-information__title" class="nav__link"
-              >PiedPiperCoin</a
-            >
-          </li>
-          <li class="nav__item">|</li>
-          <li class="nav__item">
-            <a href="#section-team__title" class="nav__link">the team</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="container">
+        <div class="header__block">
+          <a href="index.html" class="logo">
+            <img src="img/logo.svg" alt="PidePiper Logo" class="logo__image" />
+          </a>
+          <div class="nav-panel">
+            <button class="close-menu">
+              <img src="img/close.svg" alt="close" />
+            </button>
+            <nav class="nav">
+              <ul class="nav__menu">
+                <li class="nav__item">
+                  <a href="#section-text__title" class="nav__link"
+                    >the problem</a
+                  >
+                </li>
+                <li class="nav__item">|</li>
+                <li class="nav__item">
+                  <a href="#section-information__title" class="nav__link"
+                    >PiedPiperCoin</a
+                  >
+                </li>
+                <li class="nav__item">|</li>
+                <li class="nav__item">
+                  <a href="#section-team__title" class="nav__link">the team</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <button class="nav__menu-button">
+            <img src="img/menu.svg" alt="Menu" />
+          </button>
+        </div>
+      </div>
     </header>
     <main class="main">
       <div class="hero-header">
@@ -186,5 +201,6 @@
         </div>
       </div>
     </footer>
+    <script src="js/main.js"></script>
   </body>
 </html>

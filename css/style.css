@@ -6,9 +6,6 @@ body {
 
 .header {
   background: #007765;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   width: 100%;
   position: fixed;
 }
@@ -18,11 +15,17 @@ body {
   margin: 0 auto;
 }
 
+.header__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .logo {
 }
 
 .logo__image {
-  padding: 20px 0 15px 129px;
+  padding: 21px 0 15px 9px;
 }
 
 .nav {
@@ -31,7 +34,7 @@ body {
 .nav__menu {
   display: flex;
   list-style-type: none;
-  padding: 2px 100px 0 0;
+  padding: 2px 0px 0 0;
 }
 
 .nav__item {
@@ -48,7 +51,7 @@ body {
 }
 
 .hero-header {
-  background: url("/img/background_hero_header.svg") center center / cover;
+  background: url("/img/background_hero_header.jpg") center center / cover;
   width: 100%;
 }
 
@@ -82,7 +85,7 @@ body {
 }
 
 .hero-main {
-  background: url("/img/background_hero_main.svg") center center / cover;
+  background: url("/img/background_hero_main.jpg") center center / cover;
   width: 100%;
 }
 
@@ -177,4 +180,15 @@ body {
   text-align: center;
   color: #ffffff;
   padding: 48px 0 63px 19px;
+}
+
+.nav__menu-button {
+  background-color: #007765;
+  border: none;
+  cursor: pointer;
+  display: none;
+}
+
+.close-menu {
+  display: none;
 }
